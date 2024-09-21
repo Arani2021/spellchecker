@@ -3,7 +3,7 @@ from spellchecker import SpellChecker
 # Creating the app class
 class SpellcheckerApp:
     def __init__(self):
-        self.spell = SpellChecker()  # Corrected class name
+        self.spell = SpellChecker()  
     def correct_text(self, text):
         words = text.split()  # Split the input text into words
         corrected_words = []
